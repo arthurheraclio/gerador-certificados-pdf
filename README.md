@@ -20,15 +20,16 @@ O script utiliza um arquivo PDF base (template) e insere dinamicamente informaç
 ```text
 gerador-certificados-pdf/
 ├── src/
-│ └── main.py
+│   └── main.py
 ├── data/
-│ └── alunos.csv
+│   └── alunos.csv
 ├── templates/
-│ └── template.pdf
+│   └── template.pdf
 ├── output/
-│ └── certificados_gerados/
+│   └── certificados_gerados/
 ├── requirements.txt
 ├── README.md
+├── LICENSE.txt
 └── .gitignore
 ````
 ---
@@ -85,3 +86,9 @@ O template do certificado pode ser substituído por qualquer outro arquivo PDF, 
 O arquivo CSV deve conter as colunas Aluno e Matricula, conforme descrito neste repositório.
 
 Este projeto foi desenvolvido com fins educacionais e de aprendizado em automação de documentos com Python.
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE.txt) para mais detalhes.
